@@ -17,3 +17,8 @@ with col2:
 with col1:
     st.image('https://i.imgur.com/nw0vi8l.png')
 st.divider()
+
+col3, col4, col5 = st.columns(3)
+
+with col4:
+    st.write("Todos os direitos reservados | ©")
