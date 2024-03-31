@@ -16,3 +16,4 @@ with col2:
     st.write('Meu nome é Hanna Patrocinio, sou desenvolvedora em python, artista em pixel, aspirante à poeta e musicista. Comecei na área de programação há pouco tempo, tenho formação em Python e MySQL. Sou artista desde que me conheço por gente, arte é vida. Eu aprendo rapido, sou proativa e tenho uma boa comunicação, gosto de inovar e evoluir cada vez mais, quebrando minnhas barreiras pessoais e aprendendo mais e mais coisas. Conheça mais sobre mim neste site!')
 with col1:
     st.image('https://i.imgur.com/nw0vi8l.png')
+st.divider()
