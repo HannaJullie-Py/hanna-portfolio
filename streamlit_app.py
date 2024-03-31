@@ -11,3 +11,7 @@ st.set_page_config(
 col1, col2 = st.columns(2)
 with col1:
     st.image('https://i.imgur.com/nw0vi8l.png')
+
+with col2:
+    st.title('Quem sou eu?')
+    st.text('Meu nome é Hanna Patrocinio, sou desenvolvedora em python, artista em pixel, aspirante à poeta e musicista. Comecei na área de programação há pouco tempo, tenho formação em Python e MySQL. Sou artista desde que me conheço por gente, arte é vida. ')
