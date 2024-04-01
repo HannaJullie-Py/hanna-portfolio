@@ -13,6 +13,6 @@ st.write('Nesta Página, você verá as melhores músicas que eu fiz nesses long
 st.divider()
 col1, col2, col3 = st.columns(3)
 with col2:
-    st.markdown('##Hanna Jullie - Sangue Azul')
+    st.write('Hanna Jullie - Sangue Azul')
 st.video("https://www.youtube.com/watch?v=wuXSKruNcaA")
 st.divider
