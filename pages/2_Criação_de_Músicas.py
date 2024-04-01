@@ -5,6 +5,6 @@ import time
 
 st.set_page_config(
     page_title='Minhas Músicas',
-    page_icon='', 
+    page_icon='https://github.com/HannaJullie-Py/hanna-portfolio/blob/main/download.png', 
 )
 
