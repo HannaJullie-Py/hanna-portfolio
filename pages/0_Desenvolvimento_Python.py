@@ -17,20 +17,16 @@ st.divider()
 st.title('Tap Code Translate')
 st.caption('Código feito para traduzir Inglês para uma codificação chamada Tap Code e depois de Tap Code para Inglês')
 
-code = ['.','..','...','....','.....', 'print']
-code1 = ['.','..','...','....','.....', 'print']
-codem = ['']
-abc = [' ','A','B','C','D','E','F','G','H','I','J','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
-
 codu = ''
 codi = ''
 i = 0
-abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
 lista = ['. . ','. .. ','. ... ','. .... ','. ..... ','.. . ','.. .. ','.. ... ','.. .... ','.. ..... ','... . ','... .. ','... ... ','... .... ', '... ..... ','.... . ','.... .. ','.... ... ','.... .... ', '.... ..... ','..... . ','..... .. ', '..... ... ','..... .... ','..... ..... ']
-bra = [' ']
 p_espaco = ['']
 codi_final = ''
-
+texto = ''
+samo = 0
+tradu = ''
+codigo += '  '
 
 
 st.write('Tradutor de Palavras para Tap Code')
@@ -41,10 +37,7 @@ with col2:
     st.image('https://www.cachesleuth.com/images/tap/tapcode.png')
 codigo = st.text_input('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')  
-texto = ''
-samo = 0
-tradu = ''
-codigo += '  '
+
 
 
 for cod in codigo:
