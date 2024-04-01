@@ -26,8 +26,8 @@ codi_final = ''
 
 
 
-st.write('Tradutor de Palavras para Tap Code')
-st.caption("O Tap Code é escrito por você e lido pelo nosso programa da seguinte forma: Você começa pela horizontal e depois para a vertical. Exemplo: A letra 'G' se encontra em 2 (horizontal) e 2 (vertical). Você utiliza pontos espaçados para se comunicar ao invés dos números. Exemplo: A letra 'E' se encontra em: '. .....'. Você utiliza uma barra (/) para dar espaço")
+st.title('Tradutor de Palavras para Tap Code')
+st.caption("O Tap Code é escrito por você e lido pelo nosso programa da seguinte forma: Você começa pela horizontal e depois para a vertical. Exemplo: A letra 'G' se encontra em 2 (horizontal) e 2 (vertical). Você utiliza pontos espaçados para se comunicar ao invés dos números. Exemplo: A letra 'E' se encontra em: '. .....' . Você utiliza uma barra (/) para dar espaço")
 col1, col2, col3 = st.columns(3)
 with col2:
     st.title('Alfabeto')
@@ -109,6 +109,7 @@ if butao:
 st.divider()
 
 st.title('Traduzir de palavras para Tap Code')
+st.caption("Apenas maiúsculas e sem acentos.")
 frase = st.text_input('Digite o código para o tradutor codificar')
 botao = st.button('Codificar')  
 for letra in frase:
