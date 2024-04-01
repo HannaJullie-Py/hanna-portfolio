@@ -29,4 +29,6 @@ st.caption("Não são Pixel Arts ou não são algo que eu normalmente faço.")
 st.image("https://i.imgur.com/FH02wR3.png", caption= 'Logo deste site.')
 st.image('https://i.imgur.com/TBvRRfw.jpg', caption= 'Logo que fiz para outro site.')
 st.divider()
-st.write('Todos os direitos reservados | © Hanna Jullie, 2024')
+col8, col9, col0 = st.columns(3)
+with col9:
+    st.write('Todos os direitos reservados | ©')
