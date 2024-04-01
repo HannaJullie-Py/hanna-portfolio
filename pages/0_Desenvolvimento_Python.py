@@ -14,8 +14,6 @@ st.set_page_config(
 st.header("Desenvolvimento Python")
 st.write("Nesta pagina você irá ver alguns dos meus dotes no python. Projetos e joguinhos não estão de fora. Se divirta e veja se gosta de como eu escrevo meus códigos!!!")
 st.divider()
-st.title('Tap Code Translate')
-st.caption('Código feito para traduzir Inglês para uma codificação chamada Tap Code e depois de Tap Code para Inglês')
 
 codu = ''
 codi = ''
