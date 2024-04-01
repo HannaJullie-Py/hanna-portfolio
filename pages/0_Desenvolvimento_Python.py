@@ -13,7 +13,9 @@ st.write("Nesta pagina você irá ver alguns dos meus dotes no python. Projetos 
 st.divider
 st.title("Tap Code Translate")
 st.write("Código que traduz português para uma codifição chamada Tap Code. obs: não use acentos!!!")
-st.code("##########################
+st.code("
+
+        ##########################
 ##########################
 ###     Feito por      ###
 ###   HannaJullie.py   ###
@@ -222,4 +224,6 @@ while True:
     print ("\nO Tap Code, às vezes chamado de código de batida, é uma forma de codificar mensagens de texto letra por letra de uma forma muito simples. \nA mensagem é transmitida por meio de uma série de sons de toque, daí seu nome.\nO código de escuta tem sido comumente usado por prisioneiros para se comunicarem entre si.\nO método de comunicação geralmente é bater nas barras de metal, nos tubos ou nas paredes dentro de uma cela.\n(Wikipédia)")
   if menu == 5:
     print ("\nObrigada por testar nosso tradutor ^^")
-    break")
+    break
+        
+        "type= "Python")
