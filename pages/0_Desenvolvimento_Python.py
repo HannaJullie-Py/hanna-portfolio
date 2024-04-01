@@ -187,6 +187,8 @@ opcao = st.selectbox(
     'Selecione o produto que queira calcular',
     ('Chuveiro Elétrico', 'Ar Condicionado', 'Ferro de Passar','Notebook', 'Impressora','Impressora 3D', 'Portão Elétrico', 'Computador', 'Geladeira','TV', 'Ventilador','Máquina de Lavar Roupa', 'Liquidificador', 'Aspirador de Pó', 'Micro-ondas'))
 
+st.divider()
+
 if opcao == 'Chuveiro Elétrico':
     pot = 5000
     con = pot*hd*nd/1000
