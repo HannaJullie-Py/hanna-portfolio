@@ -16,4 +16,4 @@ st.write("Nesta pagina você irá ver alguns dos meus dotes no python. Projetos 
 st.divider
 st.title("Tap Code Translate")
 st.write("Código que traduz português para uma codifição chamada Tap Code. obs: não use acentos!!!")
-subprocess.run('python','tap_code_translate_by_hanna_(ver_0_1).py')
+subprocess.run(['python','tap_code_translate_by_hanna_(ver_0_1).py'])
