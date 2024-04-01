@@ -179,5 +179,5 @@ if botao:
         time.sleep(5)
     st.text(codi_final)
 st.divider()
-
+st.write('Todos os direitos reservados | © Hanna Jullie, 2024')
 
