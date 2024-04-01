@@ -179,5 +179,7 @@ if botao:
         time.sleep(5)
     st.text(codi_final)
 st.divider()
-st.write('Todos os direitos reservados | © Hanna Jullie, 2024')
+col8, col9, col0 = st.columns(3)
+with col9:
+    st.write('Todos os direitos reservados | ©')
 
