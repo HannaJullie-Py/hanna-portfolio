@@ -17,6 +17,21 @@ st.divider()
 st.title('Tap Code Translate')
 st.caption('Código feito para traduzir Inglês para uma codificação chamada Tap Code e depois de Tap Code para Inglês')
 
+code = ['.','..','...','....','.....', 'print']
+code1 = ['.','..','...','....','.....', 'print']
+codem = ['']
+abc = [' ','A','B','C','D','E','F','G','H','I','J','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+
+codu = ''
+codi = ''
+i = 0
+abc2 =['. .','. ..','. ...','. ....','. .....','.. .','.. ..','.. ...','.. ....','.. .....','... .','... ..','... ...','... ....', '... .....','.... .','.... ..','.... ...','.... ....', '.... .....','..... .','..... ..', '..... ...','..... ....','..... .....']
+lista = ['. . ','. .. ','. ... ','. .... ','. ..... ','.. . ','.. .. ','.. ... ','.. .... ','.. ..... ','... . ','... .. ','... ... ','... .... ', '... ..... ','.... . ','.... .. ','.... ... ','.... .... ', '.... ..... ','..... . ','..... .. ', '..... ... ','..... .... ','..... ..... ']
+bra = [' ']
+p_espaco = ['']
+codi_final = ''
+
+
 
 st.write('Tradutor de Palavras para Tap Code')
 st.caption("O Tap Code é escrito por você e lido pelo nosso programa da seguinte forma: Você começa pela horizontal e depois para a vertical. Exemplo: A letra 'G' se encontra em 2 (horizontal) e 2 (vertical). Você utiliza pontos espaçados para se comunicar ao invés dos números. Exemplo: A letra 'E' se encontra em: '. .....'. Você utiliza uma barra (/) para dar espaço")
