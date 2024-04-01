@@ -179,7 +179,8 @@ if botao:
         time.sleep(5)
     st.text(codi_final)
 st.divider()
-st.title("Calcule o quanto vocÊ gasta de energia por mês com cada eletrônico!")
+st.title('Calculadora de energia')
+st.caption("Calcule o quanto você gasta de energia por mês com cada eletrônico!")
 hd = st.number_input('Digite o tempo de uso diário do aparelho em horas')
 nd = st.number_input('Digite o numero de dias que usou esse aparelho no mês')
 opcao = st.selectbox(
@@ -218,7 +219,7 @@ if opcao == 'Geladeira':
     with st.spinner('Carregando...'):
         time.sleep(5)
     st.write(f'Seu gasto mensal será de {con:.2f} Kw/h, portanto R$ {0.48*con:.2f}.')
-if opcao == 'tV':
+if opcao == 'TV':
     pot = 150
     con = pot*hd*nd/1000
     with st.spinner('Carregando...'):
