@@ -21,4 +21,4 @@ st.divider()
 col3, col4, col5 = st.columns(3)
 
 with col4:
-    st.write("Todos os direitos reservados | ©")
+    st.write('Todos os direitos reservados | © Hanna Jullie, 2024')
