@@ -23,10 +23,7 @@ i = 0
 lista = ['. . ','. .. ','. ... ','. .... ','. ..... ','.. . ','.. .. ','.. ... ','.. .... ','.. ..... ','... . ','... .. ','... ... ','... .... ', '... ..... ','.... . ','.... .. ','.... ... ','.... .... ', '.... ..... ','..... . ','..... .. ', '..... ... ','..... .... ','..... ..... ']
 p_espaco = ['']
 codi_final = ''
-texto = ''
-samo = 0
-tradu = ''
-codigo += '  '
+
 
 
 st.write('Tradutor de Palavras para Tap Code')
@@ -38,7 +35,10 @@ with col2:
 codigo = st.text_input('Digite o código para o tradutor decodificar')
 butao = st.button('Decodificar')  
 
-
+texto = ''
+samo = 0
+tradu = ''
+codigo += '  '
 
 for cod in codigo:
     if cod == ' ':
