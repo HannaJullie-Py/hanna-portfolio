@@ -13,7 +13,7 @@ st.write("Nesta pagina você irá ver alguns dos meus dotes no python. Projetos 
 st.divider
 st.title("Tap Code Translate")
 st.write("Código que traduz português para uma codifição chamada Tap Code. obs: não use acentos!!!")
-st.code('''
+code = '''
 
 code = ['.','..','...','....','.....', 'print']
 code1 = ['.','..','...','....','.....', 'print']
@@ -207,4 +207,5 @@ while True:
     print ("\nObrigada por testar nosso tradutor ^^")
     break
         
-        ''',type= "Python")
+        '''
+st.code(code, language='python')
