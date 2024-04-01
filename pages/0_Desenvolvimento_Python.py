@@ -187,8 +187,6 @@ opcao = st.selectbox(
     'Selecione o produto que queira calcular',
     ('Chuveiro Elétrico', 'Ar Condicionado', 'Ferro de Passar','Notebook', 'Impressora','Impressora 3D', 'Portão Elétrico', 'Computador', 'Geladeira','TV', 'Ventilador','Máquina de Lavar Roupa', 'Liquidificador', 'Aspirador de Pó', 'Micro-ondas'))
 
-st.divider()
-
 if opcao == 'Chuveiro Elétrico':
     pot = 5000
     con = pot*hd*nd/1000
@@ -278,7 +276,7 @@ if opcao == 'Portão Elétrico':
     con = pot*hd*nd/1000
     with st.spinner('Carregando...'):
         time.sleep(5)
-    st.write(f'Seu gasto mensal será de {con:.2f} Kw/h, portanto R$ {0.48*con:.2f}.')
+    st.write(f'Seu gasto mensal será de {con:.2f} Kw/h, portanto R$ {0.48*con:.2f}.', )
 
 st.divider()
 col8, col9, col0 = st.columns(3)
