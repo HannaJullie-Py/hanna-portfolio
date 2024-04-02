@@ -23,7 +23,7 @@ codi_final = ''
 
 
 
-st.title('Tradutor de Palavras para Tap Code')
+st.title('Tradutor de Tap Code para palavras')
 st.caption("O Tap Code é escrito por você e lido pelo nosso programa da seguinte forma: Você começa pela horizontal e depois para a vertical. Exemplo: A letra 'G' se encontra em 2 (horizontal) e 2 (vertical). Você utiliza pontos espaçados para se comunicar ao invés dos números. Exemplo: A letra 'E' se encontra em: '. .....' . Você utiliza uma barra (/) para dar espaço")
 col1, col2, col3 = st.columns(3)
 with col2:
